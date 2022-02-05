@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "barlow";
+
+}
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./images/desktop/image-header.jpg");
+    background-size: cover;
+    object-fit: cover;    
+}
+header .logo {
+    width: 250px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+/* header nav .navlink {
+} */
+
+header nav .navlink a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    margin: 0 20px;
+    padding: 7px 20px;
+    border-radius: 20px;
+    transition: .3s;
+}
+header nav .navlink a:hover {
+    background: #fff;
+    color: #000;
+
+}
+
+header .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    text-transform: uppercase;
+}
+header .heading h1  {
+    font-size: 60px;
+    font-family: "Fraunces";
+    color: #fff;
+    word-spacing: 10px;
+    letter-spacing:3px;
+}
+header .heading .arrow {
+    margin-top: 110px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: row;
+    width: 100vw;
+    height: 70vh;
+}
+.container .left {
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0 150px;
+}
+.container .mobileTop {
+    display: none;
+}
+.container .left h1 {
+    font-size: 40px;
+    font-family: "Fraunces";
+    /* line-height: 40px; */
+
+}
+.container .left p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: hsl(198, 62%, 26%);
+} 
+.container .left a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 30px;
+    display: flex;
+    color: #000;
+    text-transform: uppercase;
+    font-family: "Fraunces";
+    border-end-start-radius: 8px;
+    border-start-start-radius: 8px;
+    border-end-end-radius: 8px;
+    border-start-end-radius: 8px;
+    border-bottom: 10px solid yellow;
+
+   
+}
+
+.container .right {
+    width: 50%;
+    height: 100%;
+    background-image: url("./images/desktop/image-transform.jpg");
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+.container .right2 {
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0 150px;
+}
+
+.container .right2 h1 {
+    font-size: 40px;
+    font-family: "Fraunces";
+    /* line-height: 40px; */
+
+}
+.container .right2 p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: hsl(198, 62%, 26%);
+} 
+.container .right2 a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 30px;
+    display: flex;
+    color: #000;
+    text-transform: uppercase;
+    font-family: "Fraunces";
+    border-end-start-radius: 8px;
+    border-start-start-radius: 8px;
+    border-end-end-radius: 8px;
+    border-start-end-radius: 8px;
+    border-bottom: 10px solid hsl(7, 99%, 70%);
+}
+
+
+.container .left2 {
+    width: 50%;
+    height: 100%;
+    background-image: url("./images/desktop/image-stand-out.jpg");
+    background-size: cover;
+    object-fit: cover;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: row;
+    width: 100vw;
+    height: 70vh;
+}
+
+.container3 .left3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-image: url("./images/desktop/image-graphic-design.jpg");
+    background-size: cover;
+    object-fit: cover;
+    padding: 0 150px;
+    color: hsl(198, 62%, 26%);
+}
+.container3 .left3 h1 {
+   font-size: 30px;
+   font-family: "fraunces";
+   margin-bottom: 20px;
+}
+.container3 .left3 p {
+    font-size: 20px;
+}
+
+.container3 .right3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-image: url("./images/desktop/image-photography.jpg");
+    background-size: cover;
+    object-fit: cover;
+    padding: 0 150px;
+    color: hsl(198, 62%, 26%);
+}
+.container3 .right3 h1 {
+    font-size: 30px;
+    font-family: "fraunces";
+    margin-bottom: 20px;
+ }
+ .container3 .right3 p {
+     font-size: 20px;
+ }
+
+ .container3 .textContainer {
+     position: relative;
+     bottom: -370px;
+ }
+
+ .reviewBigContainer {
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background: hsl(0, 0%, 100%);
+ }
+
+ .reviewBigContainer h1 {
+     font-size: 30px;
+     font-family: "fraunces";
+     margin-bottom: 40px;
+     text-transform: uppercase;
+     word-spacing: 10px;
+     color: hsl(198, 62%, 26%);
+ }
+
+ .reviewContainer {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }  
+ .reviewBigContainer .reviewContainer .review {
+     width: 28%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     padding: 0 20px;
+ }
+ .reviewBigContainer .reviewContainer .review img {
+     width: 70px;
+     border-radius: 50%;
+     object-fit: cover;
+     margin: 50px 0;
+ }
+ .reviewBigContainer .reviewContainer .review p {
+     font-size: 20px;
+     color: hsl(198, 62%, 26%);
+ }
+ .reviewBigContainer .reviewContainer .review h2 {
+     font-size: 25px;
+     font-family: "fraunces";
+     margin-top: 70px;
+     color: #000;
+ }
+ .reviewBigContainer .reviewContainer .review h4 {
+     font-size: 20px;
+     margin-top: 10px;
+     color: hsl(198, 62%, 26%);
+ }
+
+ .gallery {
+     width: 100vw;
+     height: 60vh;
+     display: flex;
+     
+     justify-content: center;
+     align-items: center;
+ }
+ .gallery img {
+     width: 25%;
+     height: 100%;
+     object-fit: cover;
+ }
+ .footer {
+     width: 100vw;
+     height: 50vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: hsl(168, 34%, 41%);
+ }
+
+ .footer .img {
+     margin-bottom: 40px;
+ }
+ .footer .link a {
+     text-decoration: none;
+     font-size: 20px;
+     margin: 30px ;
+     color: hsl(198, 62%, 26%);
+     transition: .3s;
+ }
+ .footer .link a:hover {
+     color: #fff;
+ }
+ .footer .icon {
+     margin-top: 70px;
+ }
+ .footer .icon .fa {
+     margin: 0 20px;
+     cursor: pointer;
+     font-size: 25px;
+     color:hsl(198, 62%, 26%) ;
+     transition: .3s;
+ }
+ .footer .icon .fa:hover {
+     color: #fff;
+ }
+
+ #bars {
+     display: none;
+ }
+
+ @media screen and (max-width:600px) {
+    header {
+        width: 100vw;
+        height: 100vh;
+        background-image: url("./images/mobile/image-header.jpg");
+        background-size: cover;
+        object-fit: cover;    
+    }
+    #bars {
+        display: block;
+        font-size: 25px;
+        color: #fff;
+    }
+    header .topHeading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    header .logo {
+        width: 150px;
+    }
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    header nav .navlink {
+     /* display: none; */
+     background-color: #fff;
+     position: absolute;
+     top: 130px;
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 20px 0;
+     display: none;
+    } 
+    
+    header nav .navlink.active {
+        display: flex;
+    }
+    header nav .navlink a{
+        font-size: 20px;
+        margin: 20px 0;
+        padding:0;
+        display: block;
+        color:  hsl(198, 62%, 26%);
+    }
+   
+    header .heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+        text-transform: uppercase;
+
+    }
+    header .heading h1  {
+        font-size: 40px;
+        font-family: "Fraunces";
+        word-spacing: 10px;
+        letter-spacing:3px;
+        text-align: center;
+    }
+    header .heading .arrow {
+        margin-top: 90px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+    }
+    .container .left {
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:0 150px;
+        display: none;
+    }
+    .container .mobileTop{
+        width: 100%;
+        height: 50%;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:30px;
+        text-align: center;
+    }
+    
+    .container .left,.mobileTop h1 {
+        font-size: 30px;
+        font-family: "Fraunces";
+        /* line-height: 40px; */
+    
+    }
+    .container .left,.mobileTop p {
+        font-size: 18px;
+        margin-top: 20px;
+        color: hsl(198, 62%, 26%);
+        text-align: center;
+        line-height: 25px;
+    } 
+    .container .mobileTop a {
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: "Fraunces";
+        color: #000;
+        margin-top: 30px; 
+        border-end-start-radius: 8px;
+        border-start-start-radius: 8px;
+        border-end-end-radius: 8px;
+        border-start-end-radius: 8px;
+        border-bottom: 10px solid hsl(7, 99%, 70%);
+    }
+    .container .left a {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 30px;
+        display: flex;
+        color: #000;
+        text-transform: uppercase;
+        font-family: "Fraunces";
+        border-end-start-radius: 8px;
+        border-start-start-radius: 8px;
+        border-end-end-radius: 8px;
+        border-start-end-radius: 8px;
+    }
+    
+    .container .right {
+        width: 100%;
+        height: 50%;
+        background-image: url("./images/mobile/image-transform.jpg");
+        background-size: cover;
+        object-fit: cover;
+    }
+    
+    
+    .container .right2 {
+        width: 100%;
+        height: 50%;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:30px ;
+    }
+    
+    .container .right2 h1 {
+        font-size: 30px;
+        font-family: "Fraunces";
+        text-align: center;
+        /* line-height: 40px; */
+    
+    }
+    .container .right2 p {
+        font-size: 18px;
+        margin-top: 20px;
+        color: hsl(198, 62%, 26%);
+        text-align: center;
+        line-height: 25px;
+    } 
+    .container .right2 a {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 30px;
+        display: flex;
+        color: #000;
+        text-transform: uppercase;
+        font-family: "Fraunces";
+        border-end-start-radius: 8px;
+        border-start-start-radius: 8px;
+        border-end-end-radius: 8px;
+        border-start-end-radius: 8px;
+       
+    }
+    
+    
+    .container .left2 {
+        width: 100%;
+        height: 50%;
+        background-image: url("./images/mobile/image-stand-out.jpg");
+        background-size: cover;
+        object-fit: cover;
+    }
+
+    .container3 {
+        display: flex;
+        justify-content: center;
+        
+        flex-direction: column;
+        width: 100vw;
+        height: 180vh;
+    }
+    
+    .container3 .left3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-image: url("./images/mobile/image-graphic-design.jpg");
+        background-size: cover;
+        object-fit: cover;
+        padding:0 20px;
+        color: hsl(198, 62%, 26%);
+    }
+    .container3 .left3 h1 {
+       font-size: 30px;
+       font-family: "fraunces";
+       margin-bottom: 20px;
+    }
+    .container3 .left3 p {
+        font-size: 20px;
+    }
+    
+    .container3 .right3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-image: url("./images/mobile/image-photography.jpg");
+        background-size: cover;
+        object-fit: cover;
+        padding: 0 20px;
+        color: hsl(198, 62%, 26%);
+    }
+    .container3 .right3 h1 {
+        font-size: 30px;
+        font-family: "fraunces";
+        margin-bottom: 20px;
+     }
+     .container3 .right3 p {
+         font-size: 20px;
+     }
+    
+     .container3 .textContainer {
+         position: relative;
+         bottom: -400px;
+     }
+    
+     .reviewBigContainer {
+         width: 100vw;
+         height: auto;
+         display: block;
+         background: hsl(0, 0%, 100%);
+         padding: 50px 10px;
+     }
+    
+     .reviewBigContainer h1 {
+         font-size: 20px;
+         text-align: center;
+         font-family: "fraunces";
+         margin-bottom: 20px;
+         /* margin-top: 40px; */
+         text-transform: uppercase;
+         word-spacing: 10px;
+         color: hsl(198, 62%, 26%);
+     }
+    
+     .reviewContainer {
+         display: block;
+         width: 100%;
+         /* background-color: green; */
+     }  
+     .reviewBigContainer .reviewContainer .review {
+         width: 100%;
+         display: block;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         padding: 0 20px;
+            margin-bottom: 40px;
+         /* background-color: red; */
+     }
+     .reviewBigContainer .reviewContainer .review img {
+         width: 50px;
+         border-radius: 50%;
+         object-fit: cover;
+         margin: 20px 0;
+     }
+     .reviewBigContainer .reviewContainer .review p {
+         font-size: 17px;
+         color: hsl(198, 62%, 26%);
+     }
+     .reviewBigContainer .reviewContainer .review h2 {
+         font-size: 18px;
+         font-family: "fraunces";
+         margin-top: 40px;
+         color: #000;
+     }
+     .reviewBigContainer .reviewContainer .review h4 {
+         font-size: 15px;
+         margin-top: 10px;
+         color: hsl(198, 62%, 26%);
+     }
+    
+     .gallery {
+         width: 100vw;
+         height: 50vh;
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+     }
+     .gallery img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+     }
+     .footer {
+         width: 100vw;
+         height: 70vh;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         background-color: hsl(168, 34%, 41%);
+     }
+    
+     .footer .img {
+         margin-bottom: 10px;
+         margin-top: 100px;
+     }
+     .footer .link a {
+         text-decoration: none;
+         font-size: 20px;
+         margin: 10px ;
+         color: hsl(198, 62%, 26%);
+         transition: .3s;
+     }
+     .footer .link a:hover {
+         color: #fff;
+     }
+     .footer .icon {
+         margin-top: 50px;
+     }
+     .footer .icon .fa {
+         margin: 0 20px;
+         cursor: pointer;
+         font-size: 25px;
+         color:hsl(198, 62%, 26%) ;
+         transition: .3s;
+     }
+     .footer .icon .fa:hover {
+         color: #fff;
+     }
+     
+ }
